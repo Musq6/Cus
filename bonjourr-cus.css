@@ -1,0 +1,31 @@
+#linkblocks{
+	positon:relative；
+}
+#interface{
+	position:relative；
+}
+.link-list{
+	visibility:hidden;
+	opacity:0;
+	/*鼠标移开时效果*/
+	transition: opacity 0.6s ease-out, visibility 0.7s ease-out;
+	position:absolute;
+	top:80%;
+	font-family:"NotoSans";
+	font-weight:500;
+	font-size:11px;
+}
+#interface:hover .link-list{
+	opacity:0.9;
+	visibility:visible;
+	/*鼠标悬停时效果*/
+	trsnsition:opacity 0.3s ease-in,visibility 0.2s ease-in;
+}
+#searchbar-wrapper{
+	position:absolute;
+	bottom:50px;
+	opacity:0.7;
+}
+#sb-suggestions{
+	opacity:0.85;
+}
