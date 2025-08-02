@@ -1,5 +1,5 @@
 #linkblocks{
-	positon:relative；
+	position:relative；
 }
 #interface{
 	position:relative；
@@ -19,7 +19,7 @@
 	opacity:0.9;
 	visibility:visible;
 	/*鼠标悬停时效果*/
-	trsnsition:opacity 0.3s ease-in,visibility 0.2s ease-in;
+	transition:opacity 0.3s ease-in,visibility 0.2s ease-in;
 }
 #searchbar-wrapper{
 	position:absolute;
